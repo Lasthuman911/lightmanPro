@@ -1,0 +1,8 @@
+server:
+  port: 8091
+spring:
+  profiles:
+    include: db_dev
+
+mybatis:
+  mapper-locations: classpath:lightman/mybatis_generator/mapper/*.xml
